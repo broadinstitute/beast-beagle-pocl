@@ -13,6 +13,7 @@ make
 make check
 
 make install
+ldconfig
 
 examples/genomictest/genomictest
 examples/tinytest/tinytest
