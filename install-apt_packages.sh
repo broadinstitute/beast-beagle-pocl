@@ -8,11 +8,12 @@ DEBIAN_FRONTEND=noninteractive
 
 # Add some basics
 apt-get update
-apt-get install -y -qq --no-install-recommends \
+#--no-install-recommends
+apt-get install -y -qq \
 	lsb-release ca-certificates wget rsync curl \
 	python-crcmod less nano vim git locales make \
 	dirmngr \
-	liblz4-tool pigz bzip2 lbzip2 \
+	liblz4-tool pigz bzip2 lbzip2 zstd \
 	libtool autoconf g++ default-jdk \
 	ocl-icd-opencl-dev pocl-opencl-icd
 
