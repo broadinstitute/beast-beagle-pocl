@@ -14,7 +14,8 @@ apt-get install -y -qq \
 	python-crcmod less nano vim git locales make \
 	dirmngr \
 	liblz4-tool pigz bzip2 lbzip2 zstd \
-	libtool autoconf g++ default-jdk \
+	libtool autoconf g++ \
+	openjdk-8-jre openjdk-8-jdk \
 	ocl-icd-opencl-dev pocl-opencl-icd
 
 # Auto-detect platform
