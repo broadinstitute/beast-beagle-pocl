@@ -15,6 +15,7 @@ apt-get install -y -qq \
 	dirmngr \
 	liblz4-tool pigz bzip2 lbzip2 zstd \
 	libtool autoconf g++ \
+        ant \
 	openjdk-8-jre openjdk-8-jdk \
 	ocl-icd-opencl-dev pocl-opencl-icd
 
