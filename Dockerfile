@@ -17,4 +17,4 @@ RUN /opt/docker/install-beagle.sh
 
 RUN /opt/docker/install-beast.sh
 
-CMD ["/bin/bash"]
+ENTRYPOINT ["/bin/bash"]
