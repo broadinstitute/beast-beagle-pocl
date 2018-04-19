@@ -21,6 +21,8 @@ apt-get install -y -qq \
 
 # Auto-detect platform
 DEBIAN_PLATFORM="$(lsb_release -c -s)"
+#override for google cloud sdk
+DEBIAN_PLATFORM="artful"
 echo "Debian platform: $DEBIAN_PLATFORM"
 
 # Add source for gcloud sdk
