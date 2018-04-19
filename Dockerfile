@@ -16,3 +16,5 @@ ENV LANG="en_US.UTF-8" LANGUAGE="en_US:en" LC_ALL="en_US.UTF-8"
 RUN /opt/docker/install-beagle.sh
 
 RUN /opt/docker/install-beast.sh
+
+CMD ["/bin/bash"]
