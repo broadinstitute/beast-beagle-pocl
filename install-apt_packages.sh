@@ -5,6 +5,7 @@ set -e -o pipefail
 # Silence some warnings about Readline. Checkout more over her$
 # https://github.com/phusion/baseimage-docker/issues/58
 DEBIAN_FRONTEND=noninteractive
+echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 
 # Add some basics
 apt-get update
