@@ -13,7 +13,7 @@ apt-get update
 apt-get install -y -qq \
 	lsb-release ca-certificates wget rsync curl \
 	python-crcmod less nano vim git locales make \
-	dirmngr \
+	dirmngr gnupg \
 	liblz4-tool pigz bzip2 lbzip2 zstd \
 	libtool autoconf g++ \
         ant \
