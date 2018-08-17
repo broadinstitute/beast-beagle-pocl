@@ -1,4 +1,4 @@
-FROM ubuntu:bionic-20180426
+FROM ubuntu:bionic-20180724.1
 
 LABEL maintainer "Daniel Park <dpark@broadinstitute.org>"
 
