@@ -16,7 +16,7 @@ apt-get install -y -qq \
 	dirmngr gnupg \
 	libtool autoconf g++ gcc \
         ant \
-	openjdk-10-jre openjdk-10-jdk \
+	openjdk-8-jre openjdk-8-jdk \
 	ocl-icd-opencl-dev pocl-opencl-icd
 
 # Auto-detect platform
