@@ -14,7 +14,7 @@ apt-get install -y -qq \
 	lsb-release ca-certificates wget rsync curl \
 	python-crcmod less nano vim git locales make \
 	dirmngr gnupg \
-	libtool autoconf g++6 gcc-6 \
+	libtool autoconf g++ gcc \
         ant \
 	openjdk-8-jre openjdk-8-jdk \
 	ocl-icd-opencl-dev pocl-opencl-icd
