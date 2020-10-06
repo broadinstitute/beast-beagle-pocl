@@ -14,7 +14,6 @@ apt-get install -y -qq \
 	lsb-release ca-certificates wget rsync curl \
 	python-crcmod less nano vim git locales make \
 	dirmngr gnupg \
-	liblz4-tool pigz bzip2 lbzip2 zstd \
 	libtool autoconf g++6 gcc-6 \
         ant \
 	openjdk-8-jre openjdk-8-jdk \
