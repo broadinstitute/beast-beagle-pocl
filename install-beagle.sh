@@ -13,7 +13,7 @@ cd beagle-lib
 
 make
 make install
-make check
+#make check
 
 ldconfig # LD_LIBRARY_PATH is also set in the Dockerfile to include /usr/local/lib
 
