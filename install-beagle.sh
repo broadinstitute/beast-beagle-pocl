@@ -19,4 +19,4 @@ ldconfig # LD_LIBRARY_PATH is also set in the Dockerfile to include /usr/local/l
 
 examples/tinytest/tinytest
 examples/synthetictest/synthetictest
-examples/genomictest/genomictest
+#examples/genomictest/genomictest I forget why we comment this out, but I guess it doesn't work on 3.1.2?
