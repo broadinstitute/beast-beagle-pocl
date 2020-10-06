@@ -1,4 +1,4 @@
-FROM ubuntu:bionic-20180724.1
+FROM ubuntu:focal-20200925
 
 LABEL maintainer "Daniel Park <dpark@broadinstitute.org>"
 
@@ -17,4 +17,6 @@ RUN /opt/docker/install-beagle.sh
 
 RUN /opt/docker/install-beast.sh
 
-ENTRYPOINT ["/bin/bash"]
+ENV BEAST="/usr/local"
+
+CMD ["/bin/bash"]

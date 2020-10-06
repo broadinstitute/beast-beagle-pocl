@@ -15,15 +15,13 @@ apt-get install -y -qq \
 	python-crcmod less nano vim git locales make \
 	dirmngr gnupg \
 	liblz4-tool pigz bzip2 lbzip2 zstd \
-	libtool autoconf g++ \
+	libtool autoconf g++6 gcc-6 \
         ant \
 	openjdk-8-jre openjdk-8-jdk \
 	ocl-icd-opencl-dev pocl-opencl-icd
 
 # Auto-detect platform
 DEBIAN_PLATFORM="$(lsb_release -c -s)"
-#override for google cloud sdk
-DEBIAN_PLATFORM="artful"
 echo "Debian platform: $DEBIAN_PLATFORM"
 
 # Add source for gcloud sdk
@@ -37,6 +35,6 @@ apt-get install -y -qq --no-install-recommends \
 
 # Upgrade and clean
 apt-get upgrade -y
-apt-get clean
+apt-get clean -y
 
 locale-gen en_US.UTF-8
