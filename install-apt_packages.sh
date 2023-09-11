@@ -20,17 +20,17 @@ apt-get install -y -qq \
 	ocl-icd-opencl-dev pocl-opencl-icd
 
 # Auto-detect platform
-#DEBIAN_PLATFORM="$(lsb_release -c -s)"
-#echo "Debian platform: $DEBIAN_PLATFORM"
+DEBIAN_PLATFORM="$(lsb_release -c -s)"
+echo "Debian platform: $DEBIAN_PLATFORM"
 
 # Add source for gcloud sdk
-#echo "deb http://packages.cloud.google.com/apt cloud-sdk-$DEBIAN_PLATFORM main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-#curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+echo "deb http://packages.cloud.google.com/apt cloud-sdk-$DEBIAN_PLATFORM main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
 
 # Install gcloud and aws
-#apt-get update
-#apt-get install -y -qq --no-install-recommends \
-#	google-cloud-sdk awscli
+apt-get update
+apt-get install -y -qq --no-install-recommends \
+	google-cloud-sdk awscli
 
 # Upgrade and clean
 #apt-get upgrade -y
