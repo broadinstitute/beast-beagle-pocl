@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20200925
+FROM ubuntu:22.04
 
 LABEL maintainer "Daniel Park <dpark@broadinstitute.org>"
 LABEL maintainer_other "Christopher Tomkins-Tinch <tomkinsc@broadinstitute.org>"
